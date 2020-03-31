@@ -34,7 +34,7 @@ public class MiPlugin extends CordovaPlugin {
             final PluginResult result = new PluginResult(PluginResult.Status.OK, "Hola estos son los params... " + "Uuid: " + uuIdUser +
                     "idQuick: " + idQuickBloxUser + " email: " + email + " idDoctor: " + idQuickBloxDoctor);
             callbackContext.sendPluginResult(result);
-        });
+        };
         return true;
     }
 
