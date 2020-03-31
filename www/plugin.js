@@ -11,6 +11,6 @@ var TalkDocPlugin = {
   llamada: function (argumentos, successCallback, errorCallback){
           exec(successCallback, errorCallback, PLUGIN_NAME, "llamar", [argumentos]);
     }
-};ó
+};
 
 module.exports = TalkDocPlugin;
