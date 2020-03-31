@@ -9,7 +9,7 @@ import org.apache.cordova.PluginResult.Status;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class MiPlugin extends CordovaPlugin {
+public class TalkDocPlugin extends CordovaPlugin {
     private static final String TAG = "TalkDocPlugin";
 
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
