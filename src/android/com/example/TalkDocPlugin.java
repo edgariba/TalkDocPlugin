@@ -23,9 +23,7 @@ public class MiPlugin extends CordovaPlugin {
             String phrase = args.getString(0);
             final PluginResult result = new PluginResult(PluginResult.Status.OK, "Hola todo el... " + phrase);
             callbackContext.sendPluginResult(result);
-        }
-
-        if (action.equals("llamar")) {
+        } else if (action.equals("llamar")) {
             final String uuIdUser = args.getString(0);
             final String idQuickBloxUser = args.getString(1);
             final String passQuickBloxUser = args.getString(2);
@@ -34,7 +32,7 @@ public class MiPlugin extends CordovaPlugin {
             final PluginResult result = new PluginResult(PluginResult.Status.OK, "Hola estos son los params... " + "Uuid: " + uuIdUser +
                     "idQuick: " + idQuickBloxUser + " email: " + email + " idDoctor: " + idQuickBloxDoctor);
             callbackContext.sendPluginResult(result);
-        };
+        }
         return true;
     }
 
