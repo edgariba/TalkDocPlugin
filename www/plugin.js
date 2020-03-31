@@ -7,9 +7,8 @@ var TalkDocPlugin = {
   saludo: function (name, successCallback, errorCallback){
         exec(successCallback, errorCallback, PLUGIN_NAME, "saludar", [name]);
   },
-
-  llamada: function (argumentos, successCallback, errorCallback){
-          exec(successCallback, errorCallback, PLUGIN_NAME, "llamar", [argumentos]);
+  llamada: function (uuIdUser, idQuickBloxUser, passQuickBloxUser, email, idQuickBloxDoctor, successCallback, errorCallback){
+          exec(successCallback, errorCallback, PLUGIN_NAME, "llamar", [uuIdUser, idQuickBloxUser, passQuickBloxUser, email, idQuickBloxDoctor]);
     }
 };
 
