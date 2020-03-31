@@ -20,7 +20,7 @@
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="TalkDocPlugin">
-          <param name="android-package" value="com.example.MiPlugin" />
+          <param name="android-package" value="com.example.TalkDocPlugin" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
